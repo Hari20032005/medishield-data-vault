@@ -35,6 +35,12 @@ export function Navbar() {
           >
             Decrypt
           </Link>
+          <Link
+            to="/about"
+            className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+          >
+            About
+          </Link>
         </nav>
       </div>
     </header>

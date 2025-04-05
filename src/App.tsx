@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard";
 import Encrypt from "./pages/Encrypt";
 import Decrypt from "./pages/Decrypt";
 import NotFound from "./pages/NotFound";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
             <Route path="/" element={<Dashboard />} />
             <Route path="/encrypt" element={<Encrypt />} />
             <Route path="/decrypt" element={<Decrypt />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
